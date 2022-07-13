@@ -19,7 +19,7 @@ $(function()
 		buffInterval = null, tFlag = false;
 	
 	var playPreviousTrackButton = $('#play-previous'), playNextTrackButton = $('#play-next'), currIndex = -1;
-	
+	// SONGS
 	var songs = [{
 		artist: "Tăng Duy Tân",
 		name: "Bên Trên Tầng lầu",
@@ -42,6 +42,76 @@ $(function()
 	{   artist: "Sơn Tùng M-TP",
 		name: "There's No One At All",
 		url: "Musics/there'sno1atall.mp3",
+		picture: "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg"
+	},
+
+	{
+		artist: "NIVIRO",
+		name: "Demons",
+		url: "Musics/demons-niviro.m4a",
+		picture: "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg"
+	},
+
+	{
+		artist: "DJ Snake ft. Justin Bieber",
+		name: "Let Me Love You",
+		url: "Musics/letmeloveyou.m4a",
+		picture: "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg"
+	},
+
+	{
+		artist: "SHAUN ft. Conor Maynard",
+		name: "Way Back Home",
+		url: "Musics/waybackhome.m4a",
+		picture: "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg"
+	},
+
+	{
+		artist: "Jonas Blue ft. William Singe",
+		name: "Mama",
+		url: "Musics/mama.mp3",
+		picture: "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg"
+	},
+
+	{
+		artist: "iKON",
+		name: "Love Scenario",
+		url: "Musics/lovescenario.m4a",
+		picture: "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg"
+	},
+
+	{
+		artist: "Damon Empero ft. Timmy Commerford",
+		name: "Lost",
+		url: "Musics/lost.mp3",
+		picture: "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg"
+	},
+
+	{
+		artist: "Lil Z Poet",
+		name: "Yêu Từ Đâu Mà Ra",
+		url: "Musics/yeutudaumara.m4a",
+		picture: "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg"
+	},
+
+	{
+		artist: "Duncan Laurence ft. FLETCHER",
+		name: "Arcade",
+		url: "Musics/arcade.m4a",
+		picture: "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg"
+	},
+
+	{
+		artist: "The Kid LAROI, Justin Bieber",
+		name: "Stay",
+		url: "Musics/stay.m4a",
+		picture: "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg"
+	},
+
+	{
+		artist: "Panic! At The Disco",
+		name: "House of Memories",
+		url: "Musics/houseofmemories.m4a",
 		picture: "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg"
 	},
 	];
